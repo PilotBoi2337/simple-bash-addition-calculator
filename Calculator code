@@ -1,0 +1,6 @@
+echo "Welcome to Kieran's addition calculator"
+echo "please enter two numbers"
+read a
+read b
+echo $a "plus" $b "equals"
+expr $a + $b
